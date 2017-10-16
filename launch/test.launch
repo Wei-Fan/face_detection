@@ -1,0 +1,5 @@
+<launch>
+		<node	pkg="face_detection"	name="face_detection"	type="face_detection" args="'/home/wade/catkin_ws/src/face_detection/model/seeta_fd_frontal_v1.0.bin'" respawn="true" output = "screen"/>
+		<!--node	pkg="face_detection"	name="face_side"	type="face_side.py" respawn="true" /-->
+		
+</launch>
